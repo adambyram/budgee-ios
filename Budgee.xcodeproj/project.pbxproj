@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BudgeeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BudgeeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		D0037CF50E7CC015009C4EE6 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0037CF40E7CC015009C4EE6 /* Entitlements.plist */; };
+		D00A483E0E60535E00D2CDCC /* Budget.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A483D0E60535E00D2CDCC /* Budget.m */; };
+		D00A48A50E60620A00D2CDCC /* BudgetOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A48A40E60620A00D2CDCC /* BudgetOverviewController.m */; };
+		D00A48F20E60669500D2CDCC /* CategoryOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A48F10E60669500D2CDCC /* CategoryOverviewController.m */; };
+		D00A49030E60A29100D2CDCC /* TextEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A49020E60A29100D2CDCC /* TextEditTableViewCell.m */; };
+		D00A49090E60A64800D2CDCC /* TransactionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A49080E60A64800D2CDCC /* TransactionDetailViewController.m */; };
+		D00C20CF0E60FA96003F3DED /* ListPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C20CE0E60FA96003F3DED /* ListPickerController.m */; };
+		D00C21AA0E610F5C003F3DED /* CategoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C21A90E610F5C003F3DED /* CategoryDetailViewController.m */; };
+		D016BEAD0E74471E00B57096 /* CategorySummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D016BEAC0E74471E00B57096 /* CategorySummaryTableViewCell.m */; };
+		D03D8C370E7F289800176F8F /* BudgeeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D03D8C360E7F289800176F8F /* BudgeeIcon.png */; };
+		D03DD1450E86EB5200925E64 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D03DD1440E86EB5200925E64 /* Default.png */; };
+		D04040010E61D28A008E9463 /* BudgetOverviewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D04040000E61D28A008E9463 /* BudgetOverviewHeaderView.m */; };
+		D04040A30E61F0E7008E9463 /* CategoryOverviewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D04040A20E61F0E7008E9463 /* CategoryOverviewHeaderView.m */; };
+		D06464C40E595BE500D2373E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D06464C30E595BE500D2373E /* libsqlite3.dylib */; };
+		D06464D70E595D1800D2373E /* TCDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D06464CC0E595D1800D2373E /* TCDataConverter.m */; };
+		D06464D80E595D1800D2373E /* TCLocaleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D06464CE0E595D1800D2373E /* TCLocaleManager.m */; };
+		D067C2540F5CC18A00BDA130 /* BudgetListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C2530F5CC18A00BDA130 /* BudgetListController.m */; };
+		D067C4920F5CE7D200BDA130 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4830F5CE7D200BDA130 /* AsyncSocket.m */; };
+		D067C4930F5CE7D200BDA130 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4850F5CE7D200BDA130 /* DDData.m */; };
+		D067C4940F5CE7D200BDA130 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4870F5CE7D200BDA130 /* DDNumber.m */; };
+		D067C4950F5CE7D200BDA130 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4890F5CE7D200BDA130 /* DDRange.m */; };
+		D067C4960F5CE7D200BDA130 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C48B0F5CE7D200BDA130 /* HTTPAuthenticationRequest.m */; };
+		D067C4970F5CE7D200BDA130 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C48D0F5CE7D200BDA130 /* HTTPConnection.m */; };
+		D067C4980F5CE7D200BDA130 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C48F0F5CE7D200BDA130 /* HTTPResponse.m */; };
+		D067C4990F5CE7D200BDA130 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4910F5CE7D200BDA130 /* HTTPServer.m */; };
+		D067C4A80F5CE99E00BDA130 /* localhostAdresses.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4A50F5CE99E00BDA130 /* localhostAdresses.m */; };
+		D067C4A90F5CE99E00BDA130 /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4A70F5CE99E00BDA130 /* MyHTTPConnection.m */; };
+		D067C4BA0F5CEA1400BDA130 /* BudgeeWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = D067C4B90F5CEA1400BDA130 /* BudgeeWebController.m */; };
+		D067C4BE0F5CEC2800BDA130 /* BudgeeWebBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D067C4BD0F5CEC2800BDA130 /* BudgeeWebBackground.png */; };
+		D06B758B0E7C9A5A007A800B /* TransactionSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B758A0E7C9A5A007A800B /* TransactionSummaryTableViewCell.m */; };
+		D08342230F5E0C1700D66A51 /* BudgetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08342220F5E0C1700D66A51 /* BudgetDetailViewController.m */; };
+		D0A2D0210E7D76DC003EE144 /* HeaderBackgroundGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A2D0200E7D76DC003EE144 /* HeaderBackgroundGradient.png */; };
+		D0BA219A0E7DF65F0027FF31 /* NSData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA21870E7DF65F0027FF31 /* NSData-SQLitePersistence.m */; };
+		D0BA219B0E7DF65F0027FF31 /* NSDate-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA21890E7DF65F0027FF31 /* NSDate-SQLitePersistence.m */; };
+		D0BA219C0E7DF65F0027FF31 /* NSMutableData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA218B0E7DF65F0027FF31 /* NSMutableData-SQLitePersistence.m */; };
+		D0BA219D0E7DF65F0027FF31 /* NSNumber-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA218D0E7DF65F0027FF31 /* NSNumber-SQLitePersistence.m */; };
+		D0BA219E0E7DF65F0027FF31 /* NSObject-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA218F0E7DF65F0027FF31 /* NSObject-SQLitePersistence.m */; };
+		D0BA219F0E7DF65F0027FF31 /* NSString-SQLiteColumnName.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA21910E7DF65F0027FF31 /* NSString-SQLiteColumnName.m */; };
+		D0BA21A00E7DF65F0027FF31 /* NSString-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA21930E7DF65F0027FF31 /* NSString-SQLitePersistence.m */; };
+		D0BA21A10E7DF65F0027FF31 /* NSString-UppercaseFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA21950E7DF65F0027FF31 /* NSString-UppercaseFirst.m */; };
+		D0BA21A20E7DF65F0027FF31 /* SQLiteInstanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA21970E7DF65F0027FF31 /* SQLiteInstanceManager.m */; };
+		D0BA21A30E7DF65F0027FF31 /* SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA21990E7DF65F0027FF31 /* SQLitePersistentObject.m */; };
+		D0D84CD40E7E30A000DF6575 /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D84CD30E7E30A000DF6575 /* libobjc.A.dylib */; };
+		D0F70C140FFB031200D1F071 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F70C130FFB031200D1F071 /* CFNetwork.framework */; };
+		D0FFF65E0E5FA68C00E6C0DA /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFF65D0E5FA68C00E6C0DA /* Category.m */; };
+		D0FFF6620E5FA6C800E6C0DA /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFF6610E5FA6C800E6C0DA /* Transaction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BudgeeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgeeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BudgeeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgeeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Budgee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Budgee_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Budgee_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0037CF40E7CC015009C4EE6 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		D00A483C0E60535E00D2CDCC /* Budget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Budget.h; sourceTree = "<group>"; };
+		D00A483D0E60535E00D2CDCC /* Budget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Budget.m; sourceTree = "<group>"; };
+		D00A48A30E60620A00D2CDCC /* BudgetOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetOverviewController.h; sourceTree = "<group>"; };
+		D00A48A40E60620A00D2CDCC /* BudgetOverviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetOverviewController.m; sourceTree = "<group>"; };
+		D00A48F00E60669500D2CDCC /* CategoryOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryOverviewController.h; sourceTree = "<group>"; };
+		D00A48F10E60669500D2CDCC /* CategoryOverviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryOverviewController.m; sourceTree = "<group>"; };
+		D00A49010E60A29100D2CDCC /* TextEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditTableViewCell.h; sourceTree = "<group>"; };
+		D00A49020E60A29100D2CDCC /* TextEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditTableViewCell.m; sourceTree = "<group>"; };
+		D00A49070E60A64800D2CDCC /* TransactionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailViewController.h; sourceTree = "<group>"; };
+		D00A49080E60A64800D2CDCC /* TransactionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailViewController.m; sourceTree = "<group>"; };
+		D00C20CD0E60FA96003F3DED /* ListPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPickerController.h; sourceTree = "<group>"; };
+		D00C20CE0E60FA96003F3DED /* ListPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPickerController.m; sourceTree = "<group>"; };
+		D00C21A80E610F5C003F3DED /* CategoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryDetailViewController.h; sourceTree = "<group>"; };
+		D00C21A90E610F5C003F3DED /* CategoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryDetailViewController.m; sourceTree = "<group>"; };
+		D016BEAB0E74471E00B57096 /* CategorySummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorySummaryTableViewCell.h; sourceTree = "<group>"; };
+		D016BEAC0E74471E00B57096 /* CategorySummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySummaryTableViewCell.m; sourceTree = "<group>"; };
+		D03D8C360E7F289800176F8F /* BudgeeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BudgeeIcon.png; sourceTree = "<group>"; };
+		D03DD1440E86EB5200925E64 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0403FFF0E61D28A008E9463 /* BudgetOverviewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetOverviewHeaderView.h; sourceTree = "<group>"; };
+		D04040000E61D28A008E9463 /* BudgetOverviewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetOverviewHeaderView.m; sourceTree = "<group>"; };
+		D04040A10E61F0E7008E9463 /* CategoryOverviewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryOverviewHeaderView.h; sourceTree = "<group>"; };
+		D04040A20E61F0E7008E9463 /* CategoryOverviewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryOverviewHeaderView.m; sourceTree = "<group>"; };
+		D06464C30E595BE500D2373E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D06464CB0E595D1800D2373E /* TCDataConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDataConverter.h; sourceTree = "<group>"; };
+		D06464CC0E595D1800D2373E /* TCDataConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDataConverter.m; sourceTree = "<group>"; };
+		D06464CD0E595D1800D2373E /* TCLocaleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLocaleManager.h; sourceTree = "<group>"; };
+		D06464CE0E595D1800D2373E /* TCLocaleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLocaleManager.m; sourceTree = "<group>"; };
+		D067C2520F5CC18A00BDA130 /* BudgetListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetListController.h; sourceTree = "<group>"; };
+		D067C2530F5CC18A00BDA130 /* BudgetListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetListController.m; sourceTree = "<group>"; };
+		D067C4820F5CE7D200BDA130 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = HTTPServer/AsyncSocket.h; sourceTree = "<group>"; };
+		D067C4830F5CE7D200BDA130 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = HTTPServer/AsyncSocket.m; sourceTree = "<group>"; };
+		D067C4840F5CE7D200BDA130 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = HTTPServer/DDData.h; sourceTree = "<group>"; };
+		D067C4850F5CE7D200BDA130 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = HTTPServer/DDData.m; sourceTree = "<group>"; };
+		D067C4860F5CE7D200BDA130 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = HTTPServer/DDNumber.h; sourceTree = "<group>"; };
+		D067C4870F5CE7D200BDA130 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = HTTPServer/DDNumber.m; sourceTree = "<group>"; };
+		D067C4880F5CE7D200BDA130 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = HTTPServer/DDRange.h; sourceTree = "<group>"; };
+		D067C4890F5CE7D200BDA130 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = HTTPServer/DDRange.m; sourceTree = "<group>"; };
+		D067C48A0F5CE7D200BDA130 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = HTTPServer/HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		D067C48B0F5CE7D200BDA130 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = HTTPServer/HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		D067C48C0F5CE7D200BDA130 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = HTTPServer/HTTPConnection.h; sourceTree = "<group>"; };
+		D067C48D0F5CE7D200BDA130 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = HTTPServer/HTTPConnection.m; sourceTree = "<group>"; };
+		D067C48E0F5CE7D200BDA130 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = HTTPServer/HTTPResponse.h; sourceTree = "<group>"; };
+		D067C48F0F5CE7D200BDA130 /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPResponse.m; path = HTTPServer/HTTPResponse.m; sourceTree = "<group>"; };
+		D067C4900F5CE7D200BDA130 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = HTTPServer/HTTPServer.h; sourceTree = "<group>"; };
+		D067C4910F5CE7D200BDA130 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = HTTPServer/HTTPServer.m; sourceTree = "<group>"; };
+		D067C4A40F5CE99E00BDA130 /* localhostAdresses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localhostAdresses.h; sourceTree = SOURCE_ROOT; };
+		D067C4A50F5CE99E00BDA130 /* localhostAdresses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = localhostAdresses.m; sourceTree = SOURCE_ROOT; };
+		D067C4A60F5CE99E00BDA130 /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPConnection.h; sourceTree = SOURCE_ROOT; };
+		D067C4A70F5CE99E00BDA130 /* MyHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPConnection.m; sourceTree = SOURCE_ROOT; };
+		D067C4B80F5CEA1400BDA130 /* BudgeeWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgeeWebController.h; sourceTree = "<group>"; };
+		D067C4B90F5CEA1400BDA130 /* BudgeeWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgeeWebController.m; sourceTree = "<group>"; };
+		D067C4BD0F5CEC2800BDA130 /* BudgeeWebBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BudgeeWebBackground.png; sourceTree = "<group>"; };
+		D06B75890E7C9A5A007A800B /* TransactionSummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionSummaryTableViewCell.h; sourceTree = "<group>"; };
+		D06B758A0E7C9A5A007A800B /* TransactionSummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionSummaryTableViewCell.m; sourceTree = "<group>"; };
+		D08342210F5E0C1700D66A51 /* BudgetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetDetailViewController.h; sourceTree = "<group>"; };
+		D08342220F5E0C1700D66A51 /* BudgetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetDetailViewController.m; sourceTree = "<group>"; };
+		D0A2D0200E7D76DC003EE144 /* HeaderBackgroundGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderBackgroundGradient.png; sourceTree = "<group>"; };
+		D0BA21860E7DF65F0027FF31 /* NSData-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-SQLitePersistence.h"; sourceTree = "<group>"; };
+		D0BA21870E7DF65F0027FF31 /* NSData-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-SQLitePersistence.m"; sourceTree = "<group>"; };
+		D0BA21880E7DF65F0027FF31 /* NSDate-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-SQLitePersistence.h"; sourceTree = "<group>"; };
+		D0BA21890E7DF65F0027FF31 /* NSDate-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-SQLitePersistence.m"; sourceTree = "<group>"; };
+		D0BA218A0E7DF65F0027FF31 /* NSMutableData-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData-SQLitePersistence.h"; sourceTree = "<group>"; };
+		D0BA218B0E7DF65F0027FF31 /* NSMutableData-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData-SQLitePersistence.m"; sourceTree = "<group>"; };
+		D0BA218C0E7DF65F0027FF31 /* NSNumber-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber-SQLitePersistence.h"; sourceTree = "<group>"; };
+		D0BA218D0E7DF65F0027FF31 /* NSNumber-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber-SQLitePersistence.m"; sourceTree = "<group>"; };
+		D0BA218E0E7DF65F0027FF31 /* NSObject-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-SQLitePersistence.h"; sourceTree = "<group>"; };
+		D0BA218F0E7DF65F0027FF31 /* NSObject-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-SQLitePersistence.m"; sourceTree = "<group>"; };
+		D0BA21900E7DF65F0027FF31 /* NSString-SQLiteColumnName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-SQLiteColumnName.h"; sourceTree = "<group>"; };
+		D0BA21910E7DF65F0027FF31 /* NSString-SQLiteColumnName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-SQLiteColumnName.m"; sourceTree = "<group>"; };
+		D0BA21920E7DF65F0027FF31 /* NSString-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-SQLitePersistence.h"; sourceTree = "<group>"; };
+		D0BA21930E7DF65F0027FF31 /* NSString-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-SQLitePersistence.m"; sourceTree = "<group>"; };
+		D0BA21940E7DF65F0027FF31 /* NSString-UppercaseFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-UppercaseFirst.h"; sourceTree = "<group>"; };
+		D0BA21950E7DF65F0027FF31 /* NSString-UppercaseFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-UppercaseFirst.m"; sourceTree = "<group>"; };
+		D0BA21960E7DF65F0027FF31 /* SQLiteInstanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteInstanceManager.h; sourceTree = "<group>"; };
+		D0BA21970E7DF65F0027FF31 /* SQLiteInstanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteInstanceManager.m; sourceTree = "<group>"; };
+		D0BA21980E7DF65F0027FF31 /* SQLitePersistentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLitePersistentObject.h; sourceTree = "<group>"; };
+		D0BA21990E7DF65F0027FF31 /* SQLitePersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLitePersistentObject.m; sourceTree = "<group>"; };
+		D0D84CD30E7E30A000DF6575 /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
+		D0F70C130FFB031200D1F071 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D0FFF65C0E5FA68C00E6C0DA /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		D0FFF65D0E5FA68C00E6C0DA /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		D0FFF6600E5FA6C800E6C0DA /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		D0FFF6610E5FA6C800E6C0DA /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				D06464C40E595BE500D2373E /* libsqlite3.dylib in Frameworks */,
+				D0D84CD40E7E30A000DF6575 /* libobjc.A.dylib in Frameworks */,
+				D0F70C140FFB031200D1F071 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D067C4A40F5CE99E00BDA130 /* localhostAdresses.h */,
+				D067C4A50F5CE99E00BDA130 /* localhostAdresses.m */,
+				D067C4A60F5CE99E00BDA130 /* MyHTTPConnection.h */,
+				D067C4A70F5CE99E00BDA130 /* MyHTTPConnection.m */,
+				1D3623240D0F684500981E51 /* BudgeeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BudgeeAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Budgee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D067C47F0F5CE79600BDA130 /* HTTPServer */,
+				D0BA21850E7DF65F0027FF31 /* PersistenceSupport */,
+				D06464E50E595E2B00D2373E /* Controllers */,
+				D06464E40E595E2300D2373E /* Models */,
+				D06464E30E595E1B00D2373E /* Views */,
+				D06464DB0E595D1D00D2373E /* TCFramework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				D0037CF40E7CC015009C4EE6 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Budgee_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D067C4BD0F5CEC2800BDA130 /* BudgeeWebBackground.png */,
+				D03D8C360E7F289800176F8F /* BudgeeIcon.png */,
+				D0A2D0200E7D76DC003EE144 /* HeaderBackgroundGradient.png */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				D03DD1440E86EB5200925E64 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F70C130FFB031200D1F071 /* CFNetwork.framework */,
+				D0D84CD30E7E30A000DF6575 /* libobjc.A.dylib */,
+				D06464C30E595BE500D2373E /* libsqlite3.dylib */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06464DB0E595D1D00D2373E /* TCFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D06464CB0E595D1800D2373E /* TCDataConverter.h */,
+				D06464CC0E595D1800D2373E /* TCDataConverter.m */,
+				D06464CD0E595D1800D2373E /* TCLocaleManager.h */,
+				D06464CE0E595D1800D2373E /* TCLocaleManager.m */,
+			);
+			name = TCFramework;
+			sourceTree = "<group>";
+		};
+		D06464E30E595E1B00D2373E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D06B75890E7C9A5A007A800B /* TransactionSummaryTableViewCell.h */,
+				D06B758A0E7C9A5A007A800B /* TransactionSummaryTableViewCell.m */,
+				D00A49010E60A29100D2CDCC /* TextEditTableViewCell.h */,
+				D00A49020E60A29100D2CDCC /* TextEditTableViewCell.m */,
+				D0403FFF0E61D28A008E9463 /* BudgetOverviewHeaderView.h */,
+				D04040000E61D28A008E9463 /* BudgetOverviewHeaderView.m */,
+				D04040A10E61F0E7008E9463 /* CategoryOverviewHeaderView.h */,
+				D04040A20E61F0E7008E9463 /* CategoryOverviewHeaderView.m */,
+				D016BEAB0E74471E00B57096 /* CategorySummaryTableViewCell.h */,
+				D016BEAC0E74471E00B57096 /* CategorySummaryTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D06464E40E595E2300D2373E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0FFF6600E5FA6C800E6C0DA /* Transaction.h */,
+				D0FFF6610E5FA6C800E6C0DA /* Transaction.m */,
+				D0FFF65C0E5FA68C00E6C0DA /* Category.h */,
+				D0FFF65D0E5FA68C00E6C0DA /* Category.m */,
+				D00A483C0E60535E00D2CDCC /* Budget.h */,
+				D00A483D0E60535E00D2CDCC /* Budget.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D06464E50E595E2B00D2373E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D00A48A30E60620A00D2CDCC /* BudgetOverviewController.h */,
+				D00A48A40E60620A00D2CDCC /* BudgetOverviewController.m */,
+				D00A48F00E60669500D2CDCC /* CategoryOverviewController.h */,
+				D00A48F10E60669500D2CDCC /* CategoryOverviewController.m */,
+				D00A49070E60A64800D2CDCC /* TransactionDetailViewController.h */,
+				D00A49080E60A64800D2CDCC /* TransactionDetailViewController.m */,
+				D00C20CD0E60FA96003F3DED /* ListPickerController.h */,
+				D00C20CE0E60FA96003F3DED /* ListPickerController.m */,
+				D00C21A80E610F5C003F3DED /* CategoryDetailViewController.h */,
+				D00C21A90E610F5C003F3DED /* CategoryDetailViewController.m */,
+				D067C2520F5CC18A00BDA130 /* BudgetListController.h */,
+				D067C2530F5CC18A00BDA130 /* BudgetListController.m */,
+				D067C4B80F5CEA1400BDA130 /* BudgeeWebController.h */,
+				D067C4B90F5CEA1400BDA130 /* BudgeeWebController.m */,
+				D08342210F5E0C1700D66A51 /* BudgetDetailViewController.h */,
+				D08342220F5E0C1700D66A51 /* BudgetDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D067C47F0F5CE79600BDA130 /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				D067C4820F5CE7D200BDA130 /* AsyncSocket.h */,
+				D067C4830F5CE7D200BDA130 /* AsyncSocket.m */,
+				D067C4840F5CE7D200BDA130 /* DDData.h */,
+				D067C4850F5CE7D200BDA130 /* DDData.m */,
+				D067C4860F5CE7D200BDA130 /* DDNumber.h */,
+				D067C4870F5CE7D200BDA130 /* DDNumber.m */,
+				D067C4880F5CE7D200BDA130 /* DDRange.h */,
+				D067C4890F5CE7D200BDA130 /* DDRange.m */,
+				D067C48A0F5CE7D200BDA130 /* HTTPAuthenticationRequest.h */,
+				D067C48B0F5CE7D200BDA130 /* HTTPAuthenticationRequest.m */,
+				D067C48C0F5CE7D200BDA130 /* HTTPConnection.h */,
+				D067C48D0F5CE7D200BDA130 /* HTTPConnection.m */,
+				D067C48E0F5CE7D200BDA130 /* HTTPResponse.h */,
+				D067C48F0F5CE7D200BDA130 /* HTTPResponse.m */,
+				D067C4900F5CE7D200BDA130 /* HTTPServer.h */,
+				D067C4910F5CE7D200BDA130 /* HTTPServer.m */,
+			);
+			name = HTTPServer;
+			sourceTree = "<group>";
+		};
+		D0BA21850E7DF65F0027FF31 /* PersistenceSupport */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA21860E7DF65F0027FF31 /* NSData-SQLitePersistence.h */,
+				D0BA21870E7DF65F0027FF31 /* NSData-SQLitePersistence.m */,
+				D0BA21880E7DF65F0027FF31 /* NSDate-SQLitePersistence.h */,
+				D0BA21890E7DF65F0027FF31 /* NSDate-SQLitePersistence.m */,
+				D0BA218A0E7DF65F0027FF31 /* NSMutableData-SQLitePersistence.h */,
+				D0BA218B0E7DF65F0027FF31 /* NSMutableData-SQLitePersistence.m */,
+				D0BA218C0E7DF65F0027FF31 /* NSNumber-SQLitePersistence.h */,
+				D0BA218D0E7DF65F0027FF31 /* NSNumber-SQLitePersistence.m */,
+				D0BA218E0E7DF65F0027FF31 /* NSObject-SQLitePersistence.h */,
+				D0BA218F0E7DF65F0027FF31 /* NSObject-SQLitePersistence.m */,
+				D0BA21900E7DF65F0027FF31 /* NSString-SQLiteColumnName.h */,
+				D0BA21910E7DF65F0027FF31 /* NSString-SQLiteColumnName.m */,
+				D0BA21920E7DF65F0027FF31 /* NSString-SQLitePersistence.h */,
+				D0BA21930E7DF65F0027FF31 /* NSString-SQLitePersistence.m */,
+				D0BA21940E7DF65F0027FF31 /* NSString-UppercaseFirst.h */,
+				D0BA21950E7DF65F0027FF31 /* NSString-UppercaseFirst.m */,
+				D0BA21960E7DF65F0027FF31 /* SQLiteInstanceManager.h */,
+				D0BA21970E7DF65F0027FF31 /* SQLiteInstanceManager.m */,
+				D0BA21980E7DF65F0027FF31 /* SQLitePersistentObject.h */,
+				D0BA21990E7DF65F0027FF31 /* SQLitePersistentObject.m */,
+			);
+			path = PersistenceSupport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Budgee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Budgee" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Budgee;
+			productName = Budgee;
+			productReference = 1D6058910D05DD3D006BFB54 /* Budgee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Budgee" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Budgee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				D0037CF50E7CC015009C4EE6 /* Entitlements.plist in Resources */,
+				D0A2D0210E7D76DC003EE144 /* HeaderBackgroundGradient.png in Resources */,
+				D03D8C370E7F289800176F8F /* BudgeeIcon.png in Resources */,
+				D03DD1450E86EB5200925E64 /* Default.png in Resources */,
+				D067C4BE0F5CEC2800BDA130 /* BudgeeWebBackground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BudgeeAppDelegate.m in Sources */,
+				D06464D70E595D1800D2373E /* TCDataConverter.m in Sources */,
+				D06464D80E595D1800D2373E /* TCLocaleManager.m in Sources */,
+				D0FFF65E0E5FA68C00E6C0DA /* Category.m in Sources */,
+				D0FFF6620E5FA6C800E6C0DA /* Transaction.m in Sources */,
+				D00A483E0E60535E00D2CDCC /* Budget.m in Sources */,
+				D00A48A50E60620A00D2CDCC /* BudgetOverviewController.m in Sources */,
+				D00A48F20E60669500D2CDCC /* CategoryOverviewController.m in Sources */,
+				D00A49030E60A29100D2CDCC /* TextEditTableViewCell.m in Sources */,
+				D00A49090E60A64800D2CDCC /* TransactionDetailViewController.m in Sources */,
+				D00C20CF0E60FA96003F3DED /* ListPickerController.m in Sources */,
+				D00C21AA0E610F5C003F3DED /* CategoryDetailViewController.m in Sources */,
+				D04040010E61D28A008E9463 /* BudgetOverviewHeaderView.m in Sources */,
+				D04040A30E61F0E7008E9463 /* CategoryOverviewHeaderView.m in Sources */,
+				D016BEAD0E74471E00B57096 /* CategorySummaryTableViewCell.m in Sources */,
+				D06B758B0E7C9A5A007A800B /* TransactionSummaryTableViewCell.m in Sources */,
+				D0BA219A0E7DF65F0027FF31 /* NSData-SQLitePersistence.m in Sources */,
+				D0BA219B0E7DF65F0027FF31 /* NSDate-SQLitePersistence.m in Sources */,
+				D0BA219C0E7DF65F0027FF31 /* NSMutableData-SQLitePersistence.m in Sources */,
+				D0BA219D0E7DF65F0027FF31 /* NSNumber-SQLitePersistence.m in Sources */,
+				D0BA219E0E7DF65F0027FF31 /* NSObject-SQLitePersistence.m in Sources */,
+				D0BA219F0E7DF65F0027FF31 /* NSString-SQLiteColumnName.m in Sources */,
+				D0BA21A00E7DF65F0027FF31 /* NSString-SQLitePersistence.m in Sources */,
+				D0BA21A10E7DF65F0027FF31 /* NSString-UppercaseFirst.m in Sources */,
+				D0BA21A20E7DF65F0027FF31 /* SQLiteInstanceManager.m in Sources */,
+				D0BA21A30E7DF65F0027FF31 /* SQLitePersistentObject.m in Sources */,
+				D067C2540F5CC18A00BDA130 /* BudgetListController.m in Sources */,
+				D067C4920F5CE7D200BDA130 /* AsyncSocket.m in Sources */,
+				D067C4930F5CE7D200BDA130 /* DDData.m in Sources */,
+				D067C4940F5CE7D200BDA130 /* DDNumber.m in Sources */,
+				D067C4950F5CE7D200BDA130 /* DDRange.m in Sources */,
+				D067C4960F5CE7D200BDA130 /* HTTPAuthenticationRequest.m in Sources */,
+				D067C4970F5CE7D200BDA130 /* HTTPConnection.m in Sources */,
+				D067C4980F5CE7D200BDA130 /* HTTPResponse.m in Sources */,
+				D067C4990F5CE7D200BDA130 /* HTTPServer.m in Sources */,
+				D067C4A80F5CE99E00BDA130 /* localhostAdresses.m in Sources */,
+				D067C4A90F5CE99E00BDA130 /* MyHTTPConnection.m in Sources */,
+				D067C4BA0F5CEA1400BDA130 /* BudgeeWebController.m in Sources */,
+				D08342230F5E0C1700D66A51 /* BudgetDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Budgee_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Budgee;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Budgee_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Budgee;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = Budgee;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Release;
+		};
+		D0168A2B0E7F2D2B00050296 /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adam Byram";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "537A8FEE-B070-45EE-9086-58FED0413CEE";
+				SDKROOT = iphoneos2.1;
+			};
+			name = "App Store";
+		};
+		D0168A2C0E7F2D2B00050296 /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adam Byram";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Byram";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Budgee_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Budgee;
+				PROVISIONING_PROFILE = "537A8FEE-B070-45EE-9086-58FED0413CEE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "537A8FEE-B070-45EE-9086-58FED0413CEE";
+			};
+			name = "App Store";
+		};
+		D031FAD90E7CBE3A0012B44B /* Local Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.1;
+			};
+			name = "Local Ad Hoc";
+		};
+		D031FADA0E7CBE3A0012B44B /* Local Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Budgee_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Budgee;
+				SDKROOT = iphoneos2.1;
+			};
+			name = "Local Ad Hoc";
+		};
+		D0CBED060E7DEAE7000AA483 /* Simulator */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = Budgee;
+				SDKROOT = iphoneos2.1;
+			};
+			name = Simulator;
+		};
+		D0CBED070E7DEAE7000AA483 /* Simulator */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Budgee_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Budgee;
+			};
+			name = Simulator;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Budgee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				D0CBED070E7DEAE7000AA483 /* Simulator */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				D0168A2C0E7F2D2B00050296 /* App Store */,
+				D031FADA0E7CBE3A0012B44B /* Local Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Budgee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				D0CBED060E7DEAE7000AA483 /* Simulator */,
+				C01FCF5008A954540054247B /* Release */,
+				D0168A2B0E7F2D2B00050296 /* App Store */,
+				D031FAD90E7CBE3A0012B44B /* Local Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
