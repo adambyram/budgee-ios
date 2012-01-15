@@ -1,0 +1,3 @@
+**Budgee** is a simple budget tracking application for iOS.  It was created to provide a quick and easy method for tracking expenses instead of the overly complex approach of other apps at the time.  
+
+This code should compile under the latest Xcode version, but it will generate tons of warnings.  I plan to re-write the codebase from the ground up, but until then, the code itself shouldn't be used in other applications.  This was my first iOS app and it was released as one of the first 10,000 apps to hit the App Store.  Today, many of the methods used in the app are deprecated and there are much better ways to do nearly everything.
